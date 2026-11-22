@@ -1,0 +1,10 @@
+Heat Diffusion Simulation (Serial)
+Grid Size: 4096 x 4096
+Time Steps: 500
+Alpha: 0.10
+
+--- Results ---
+Execution Time: 94.599773 seconds
+Checksum: 100.0000000000
+Sum of Squares: 7.9597458311
+Centre Temperature: 0.1592352629

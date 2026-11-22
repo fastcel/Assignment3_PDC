@@ -1,0 +1,18 @@
+
+Heat Diffusion (MPI 2D Non-Blocking Optimized)
+Grid Size: 4096 x 4096
+Time Steps: 500
+MPI Processes: 1
+Process Grid: 1 x 1
+Convergence K: 50
+
+--- Results ---
+Execution Time: 18.216172 seconds
+Max Post Time: 0.000969 seconds
+Max Interior Compute Time: 18.209125 seconds
+Max Waitall Time: 0.001205 seconds
+Max Boundary Compute Time: 0.004095 seconds
+Checksum: 100.0000000000
+Sum of Squares: 7.9597458311
+Centre Temperature: 0.1592352629
+Last Maximum Change: 0.0003192715

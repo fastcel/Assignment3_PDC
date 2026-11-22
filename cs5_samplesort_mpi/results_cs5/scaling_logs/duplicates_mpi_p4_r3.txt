@@ -1,0 +1,23 @@
+===== REPRODUCIBLE MPI SAMPLE SORT =====
+Distribution: duplicates
+Total integers: 100000000
+Processes: 4
+Oversampling: 4
+Packed key bytes: 8
+Final counts: 26342992 24423421 24424531 24809056
+Max/mean imbalance: 1.054x
+Global fingerprint sum: 0x48e8ef7bf6a55b70
+Global fingerprint xor: 0x6dd522c80d530de8
+Local sorting: PASS
+Global ordering: PASS
+Elements preserved: PASS
+Fingerprint preservation: PASS
+Correctness: PASS
+
+===== PHASE TIMINGS =====
+Local sorting: 3.690717 s
+Sample selection: 0.031083 s
+Partition and counts: 0.000068 s
+Alltoallv redistribution: 0.268513 s
+Final sorting: 2.265105 s
+Total sorting time: 6.196244 s

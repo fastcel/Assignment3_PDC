@@ -1,0 +1,27 @@
+===== SAMPLE SORT TRAFFIC INSPECTION =====
+Distribution: uniform
+Total integers: 100000000
+Processes: 4
+Oversampling: 4
+Bytes per packed key: 8
+
+===== SEND COUNT MATRIX =====
+Rows = sending ranks
+Columns = destination ranks
+Rank 0: 7686819 5769946 5772208 5771027
+Rank 1: 7689952 5768725 5768634 5772689
+Rank 2: 7692308 5769231 5765424 5773037
+Rank 3: 7690611 5769575 5770584 5769230
+
+===== PER-RANK TRAFFIC =====
+Rank 0: initial=25000000 final=30759690 remote_send_bytes=138505448 remote_recv_bytes=184582968
+Rank 1: initial=25000000 final=23077477 remote_send_bytes=153850200 remote_recv_bytes=138470016
+Rank 2: initial=25000000 final=23076850 remote_send_bytes=153876608 remote_recv_bytes=138491408
+Rank 3: initial=25000000 final=23085983 remote_send_bytes=153846160 remote_recv_bytes=138534024
+
+===== TRAFFIC SUMMARY =====
+Total remote payload bytes: 600078416
+Max remote send bytes per rank: 153876608
+Max remote receive bytes per rank: 184582968
+Mean remote send bytes per rank: 150019604
+Traffic count consistency: PASS

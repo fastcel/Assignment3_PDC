@@ -1,0 +1,18 @@
+===== RNG CORRELATION EXPERIMENT =====
+Threads: 8
+Paths per thread: 200000
+Nominal paths: 1600000
+
+===== IDENTICAL SEEDS =====
+Identical worker results: YES
+Distinct generated paths: 200000
+Monte Carlo price: $10.43172419
+Naive standard error: 0.01162026
+Effective standard error: 0.03286712
+SE underestimation factor: 2.828x
+
+===== SEPARATELY SEEDED =====
+Monte Carlo price: $10.45461137
+Estimated standard error: 0.01164210
+
+Experiment complete.

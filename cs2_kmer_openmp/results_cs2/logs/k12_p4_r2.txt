@@ -1,0 +1,27 @@
+
+===== FULL-SIZED K-MER EXPERIMENT =====
+Sequence length: 100000000
+k: 12
+Threads: 4
+Expected windows: 99999989
+Histogram bins: 16777216
+Private histogram memory: 512.00 MiB
+
+===== EXECUTION TIMES =====
+Serial: 1.550471 seconds
+Atomic: 0.622570 seconds
+Private: 1.205750 seconds
+
+===== HISTOGRAM VERIFICATION =====
+Serial total: 99999989
+Atomic total: 99999989
+Private total: 99999989
+Atomic mismatched bins: 0
+Private mismatched bins: 0
+Serial fingerprint: fdafb38ee6cbd6e0
+
+===== SPEEDUP =====
+Atomic speedup: 2.490x
+Private speedup: 1.286x
+
+Exact bin-by-bin correctness: PASS

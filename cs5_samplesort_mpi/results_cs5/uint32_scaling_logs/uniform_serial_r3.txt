@@ -1,0 +1,14 @@
+===== NATIVE 32-BIT SERIAL SORT =====
+Distribution: uniform
+Total integers: 100000000
+Element bytes: 4
+Input storage: 400.000 MB
+Sorting time: 20.063809 s
+Input fingerprint sum: 0xb0fc535dd09e0404
+Input fingerprint xor: 0xa39f5094417456d8
+Output fingerprint sum: 0xb0fc535dd09e0404
+Output fingerprint xor: 0xa39f5094417456d8
+Local ordering: PASS
+Elements preserved: PASS
+Correctness: PASS
+

@@ -1,0 +1,35 @@
+===== SAMPLE SORT TRAFFIC INSPECTION =====
+Distribution: uniform
+Total integers: 100000000
+Processes: 8
+Oversampling: 4
+Bytes per packed key: 8
+
+===== SEND COUNT MATRIX =====
+Rows = sending ranks
+Columns = destination ranks
+Rank 0: 1723901 1720293 1297186 1720914 1297451 1721372 1295689 1723194
+Rank 1: 1722648 1721983 1294861 1722439 1294821 1722799 1296269 1724180
+Rank 2: 1724138 1721042 1297868 1721085 1294488 1721103 1296139 1724137
+Rank 3: 1724371 1720223 1296572 1721386 1295582 1720278 1297679 1723909
+Rank 4: 1723175 1723250 1296116 1722233 1293900 1721060 1294506 1725760
+Rank 5: 1724736 1723540 1294875 1722146 1294451 1719137 1295211 1725904
+Rank 6: 1725217 1720599 1295331 1724371 1295219 1722022 1293800 1723441
+Rank 7: 1726119 1720636 1294712 1720660 1295844 1720995 1296951 1724083
+
+===== PER-RANK TRAFFIC =====
+Rank 0: initial=12500000 final=13794305 remote_send_bytes=86208792 remote_recv_bytes=96563232
+Rank 1: initial=12500000 final=13771566 remote_send_bytes=86224136 remote_recv_bytes=96396664
+Rank 2: initial=12500000 final=10367521 remote_send_bytes=89617056 remote_recv_bytes=72557224
+Rank 3: initial=12500000 final=13775234 remote_send_bytes=86228912 remote_recv_bytes=96430784
+Rank 4: initial=12500000 final=10361756 remote_send_bytes=89648800 remote_recv_bytes=72542848
+Rank 5: initial=12500000 final=13768766 remote_send_bytes=86246904 remote_recv_bytes=96397032
+Rank 6: initial=12500000 final=10366244 remote_send_bytes=89649600 remote_recv_bytes=72579552
+Rank 7: initial=12500000 final=13794608 remote_send_bytes=86207336 remote_recv_bytes=96564200
+
+===== TRAFFIC SUMMARY =====
+Total remote payload bytes: 700031536
+Max remote send bytes per rank: 89649600
+Max remote receive bytes per rank: 96564200
+Mean remote send bytes per rank: 87503942
+Traffic count consistency: PASS

@@ -1,0 +1,22 @@
+Final counts: 26344739 24423924 24423984 24807353
+
+===== PACKED SAMPLE SORT =====
+Distribution: duplicates
+Total integers: 100000000
+Processes: 4
+Oversampling: 4
+Packed key bytes: 8
+Max/mean imbalance: 1.054x
+Local sorting: PASS
+Global ordering: PASS
+Elements preserved: PASS
+Fingerprint preservation: PASS
+Correctness: PASS
+
+===== PHASE TIMINGS =====
+Local sorting: 3.647693 s
+Sample selection: 0.126188 s
+Partition and counts: 0.000270 s
+Alltoallv redistribution: 0.270261 s
+Final sorting: 2.221570 s
+Total sorting time: 6.128160 s

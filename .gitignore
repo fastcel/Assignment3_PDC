@@ -1,0 +1,77 @@
+# Temporary audit outputs
+/build_audit_logs/
+/final_audit_logs/
+
+# Scratch review directory
+/cs1_review_EznYbj/
+
+# Python-generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiler intermediates
+*.o
+*.obj
+*.a
+*.so
+
+# Editor and backup files
+*.swp
+*.swo
+*~
+*.bak
+
+# Temporary files
+*.tmp
+
+# Generated compiled ELF executables
+/cs1_heat_mpi/boundary_demo
+/cs1_heat_mpi/mpi_1d_demo
+/cs1_heat_mpi/mpi_1d_nonblocking_demo
+/cs1_heat_mpi/mpi_2d_block_O2
+/cs1_heat_mpi/mpi_2d_block_O3
+/cs1_heat_mpi/mpi_2d_demo
+/cs1_heat_mpi/mpi_2d_nonblock_O2
+/cs1_heat_mpi/mpi_2d_nonblock_O3
+/cs1_heat_mpi/mpi_2d_nonblocking_demo
+/cs1_heat_mpi/serial
+/cs1_heat_mpi/stride_probe
+/cs2_kmer_openmp/false_sharing_learning
+/cs2_kmer_openmp/kmer_learning_demo
+/cs2_kmer_openmp/omp_chunk_demo
+/cs2_kmer_openmp/omp_fullsize_learning
+/cs2_kmer_openmp/omp_histogram_demo
+/cs2_kmer_openmp/omp_kmer_race_learning
+/cs2_kmer_openmp/omp_race_demo
+/cs2_kmer_openmp/serial_kmer_practice
+/cs3_montecarlo/mc_fullsize_learning
+/cs3_montecarlo/mc_openmp_learning
+/cs3_montecarlo/mc_reduction_learning
+/cs3_montecarlo/mc_rng_correlation_learning
+/cs3_montecarlo/mc_rng_streams_learning
+/cs3_montecarlo/mc_serial_learning
+/cs4_pagerank_openmp/csr_loader_learning
+/cs4_pagerank_openmp/memory_bandwidth_learning
+/cs4_pagerank_openmp/pagerank_atomic_learning
+/cs4_pagerank_openmp/pagerank_convergence_learning
+/cs4_pagerank_openmp/pagerank_learning_demo
+/cs4_pagerank_openmp/pagerank_parallel_pull_learning
+/cs4_pagerank_openmp/pagerank_parallel_push_learning
+/cs4_pagerank_openmp/pagerank_push_pull_learning
+/cs4_pagerank_openmp/pagerank_scheduling_learning
+/cs4_pagerank_openmp/pagerank_serial_large_learning
+/cs4_pagerank_openmp/pagerank_thread_timing_learning
+/cs5_samplesort_mpi/inspect_samplesort_traffic_learning
+/cs5_samplesort_mpi/mpi_pingpong_learning
+/cs5_samplesort_mpi/sample_balance_learning
+/cs5_samplesort_mpi/sample_packed_learning
+/cs5_samplesort_mpi/sample_redistribution_learning
+/cs5_samplesort_mpi/sample_selection_learning
+/cs5_samplesort_mpi/sample_serial_baseline_learning
+/cs5_samplesort_mpi/sample_serial_uint32_learning
+/cs5_samplesort_mpi/sample_sort_rank_phases_learning
+/cs5_samplesort_mpi/sample_sort_repro_learning
+/cs5_samplesort_mpi/sample_sort_uint32_learning
+/cs5_samplesort_mpi/sample_tiebreak_learning
+/cs5_samplesort_mpi/verify_input_partitions_learning

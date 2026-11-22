@@ -1,0 +1,25 @@
+===== FULL-SIZED MONTE CARLO =====
+Paths: 100000000
+Requested threads: 2
+Actual threads: 2
+Black-Scholes price: $10.45058357
+
+===== SERIAL =====
+Monte Carlo price: $10.45091390
+Standard error: 0.00147183
+Absolute error: 0.00033033
+95% CI: [$10.44802910, $10.45379869]
+Execution time: 5.490973 seconds
+Throughput: 18.212 million paths/s
+
+===== OPENMP =====
+Monte Carlo price: $10.45118179
+Standard error: 0.00147207
+Absolute error: 0.00059822
+95% CI: [$10.44829653, $10.45406706]
+Execution time: 2.988306 seconds
+Throughput: 33.464 million paths/s
+
+===== PERFORMANCE =====
+Speedup vs serial: 1.837x
+Parallel efficiency: 91.87%

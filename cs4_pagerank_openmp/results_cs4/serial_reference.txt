@@ -1,0 +1,29 @@
+===== LARGE SERIAL PAGERANK =====
+Vertices: 100000
+Edges: 1260000
+Dangling vertices: 1000
+Damping: 0.85
+Tolerance: 1.0e-10
+
+===== ITERATION PROGRESS =====
+Iteration   1 | L1 difference: 4.504629966666e-01
+Iteration   2 | L1 difference: 1.125741891589e-01
+Iteration   3 | L1 difference: 2.920498007943e-02
+Iteration   4 | L1 difference: 7.978076295592e-03
+Iteration   5 | L1 difference: 2.250568321825e-03
+Iteration  10 | L1 difference: 4.881290318413e-06
+
+===== FINAL RESULTS =====
+Iterations: 19
+Final L1 difference: 8.432802547252e-11
+Sum of ranks: 1.000000000000
+Execution time: 0.016427 seconds
+Converged: YES
+
+===== SELECTED VERTICES =====
+Node 0: 0.000726907359
+Node 1: 0.000728066569
+Node 1000: 0.000011138316
+Node 99999: 0.000006847203
+
+Correctness: PASS

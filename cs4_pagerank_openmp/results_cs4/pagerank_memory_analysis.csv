@@ -1,0 +1,5 @@
+algorithm,seconds,million_edges_per_second
+Serial push,0.0652,1375.6705674846628
+Atomic push,0.199441,449.7255880185117
+Serial pull,0.158818,564.7579052752208
+Dynamic pull,0.072956,1229.422131147541

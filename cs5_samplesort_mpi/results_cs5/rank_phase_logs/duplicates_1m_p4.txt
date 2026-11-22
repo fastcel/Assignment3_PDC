@@ -1,0 +1,32 @@
+
+===== PER-RANK PHASE TIMINGS =====
+rank,local_sort_s,sampling_s,partition_s,alltoallv_s,final_sort_s,phase_window_s
+0,0.014441981,0.004145054,0.000032384,0.002131025,0.009344335,0.030094779
+1,0.017689351,0.000897695,0.000022878,0.001832540,0.008172771,0.028615235
+2,0.014639932,0.003944142,0.000031850,0.001850450,0.006527725,0.026994099
+3,0.018525088,0.000071333,0.000019204,0.002130272,0.012759850,0.033505747
+===== END PER-RANK PHASE TIMINGS =====
+
+===== REPRODUCIBLE MPI SAMPLE SORT =====
+Distribution: duplicates
+Total integers: 1000000
+Processes: 4
+Oversampling: 4
+Packed key bytes: 8
+Final counts: 263334 244312 244101 248253
+Max/mean imbalance: 1.053x
+Global fingerprint sum: 0xc5383a5b6349805e
+Global fingerprint xor: 0xcc6c490fbae3deee
+Local sorting: PASS
+Global ordering: PASS
+Elements preserved: PASS
+Fingerprint preservation: PASS
+Correctness: PASS
+
+===== PHASE TIMINGS =====
+Local sorting: 0.018525 s
+Sample selection: 0.004145 s
+Partition and counts: 0.000032 s
+Alltoallv redistribution: 0.002131 s
+Final sorting: 0.012760 s
+Total sorting time: 0.033506 s

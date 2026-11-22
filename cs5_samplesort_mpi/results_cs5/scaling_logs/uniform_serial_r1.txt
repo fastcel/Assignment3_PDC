@@ -1,0 +1,10 @@
+===== SERIAL SORTING BASELINE =====
+Distribution: uniform
+Total integers: 100000000
+Key size: 8 bytes
+Serial sorting time: 24.972361 s
+Global fingerprint sum: 0x68da6bf4af35f453
+Global fingerprint xor: 0x2fe58d57c9092525
+Sorted ordering: PASS
+Fingerprint preservation: PASS
+Correctness: PASS

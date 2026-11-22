@@ -1,0 +1,13 @@
+
+Heat Diffusion (MPI 1D Blocking)
+Grid Size: 4096 x 4096
+Time Steps: 500
+MPI Processes: 4
+Convergence K: 50
+
+--- Results ---
+Execution Time: 6.773165 seconds
+Checksum: 100.0000000000
+Sum of Squares: 7.9597458311
+Centre Temperature: 0.1592352629
+Last Maximum Change: 0.0003192715

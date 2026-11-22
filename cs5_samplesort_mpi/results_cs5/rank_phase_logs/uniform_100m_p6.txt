@@ -1,0 +1,34 @@
+
+===== PER-RANK PHASE TIMINGS =====
+rank,local_sort_s,sampling_s,partition_s,alltoallv_s,final_sort_s,phase_window_s
+0,2.768402780,0.030744405,0.000180377,0.181286700,1.329920108,4.310534370
+1,2.799086425,0.000080232,0.000138080,0.103926276,1.147445157,4.050676170
+2,2.741239172,0.057916887,0.000141997,0.177348743,1.330346267,4.306993066
+3,2.735608015,0.063564562,0.000126098,0.101870939,1.124052148,4.025221762
+4,2.771020382,0.028158613,0.000132113,0.108990605,1.132529901,4.040831614
+5,2.730736663,0.068446543,0.000122811,0.181277153,1.347030189,4.327613359
+===== END PER-RANK PHASE TIMINGS =====
+
+===== REPRODUCIBLE MPI SAMPLE SORT =====
+Distribution: uniform
+Total integers: 100000000
+Processes: 6
+Oversampling: 4
+Packed key bytes: 8
+Final counts: 19048289 14289845 19024518 14300947 14296376 19040025
+Max/mean imbalance: 1.143x
+Global fingerprint sum: 0x68da6bf4af35f453
+Global fingerprint xor: 0x2fe58d57c9092525
+Local sorting: PASS
+Global ordering: PASS
+Elements preserved: PASS
+Fingerprint preservation: PASS
+Correctness: PASS
+
+===== PHASE TIMINGS =====
+Local sorting: 2.799086 s
+Sample selection: 0.068447 s
+Partition and counts: 0.000180 s
+Alltoallv redistribution: 0.181287 s
+Final sorting: 1.347030 s
+Total sorting time: 4.327613 s

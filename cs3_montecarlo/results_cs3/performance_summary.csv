@@ -1,0 +1,6 @@
+threads,median_parallel_seconds,speedup,efficiency_percent,million_paths_per_second,amdahl_effective_serial_fraction
+1,5.490271,0.9977,99.77,18.214,
+2,2.930164,1.8694,93.47,34.128,0.06989
+4,1.492793,3.6693,91.73,66.989,0.03004
+6,1.054865,5.1926,86.54,94.799,0.03110
+8,0.818334,6.6935,83.67,122.199,0.02788

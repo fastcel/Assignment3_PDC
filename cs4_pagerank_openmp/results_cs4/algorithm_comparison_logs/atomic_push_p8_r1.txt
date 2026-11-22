@@ -1,0 +1,32 @@
+===== PARALLEL PUSH COMPARISON =====
+Vertices: 100000
+Edges: 1260000
+Requested threads: 8
+
+===== SERIAL PUSH =====
+Iterations: 19
+Final L1 difference: 8.432802547252e-11
+Sum of ranks: 1.000000000000
+Execution time: 0.042074 seconds
+
+===== OPENMP ATOMIC PUSH =====
+Iterations: 19
+Final L1 difference: 8.432800758572e-11
+Sum of ranks: 1.000000000000
+Execution time: 0.119521 seconds
+
+===== FULL VECTOR VERIFICATION =====
+Maximum rank difference: 3.144186300208e-18
+L1 difference between vectors: 3.132035612580e-16
+
+===== SELECTED VERTICES =====
+Node 0 | Serial 0.000726907359 | Atomic 0.000726907359
+Node 1 | Serial 0.000728066569 | Atomic 0.000728066569
+Node 1000 | Serial 0.000011138316 | Atomic 0.000011138316
+Node 99999 | Serial 0.000006847203 | Atomic 0.000006847203
+
+===== PERFORMANCE =====
+Speedup vs serial: 0.352x
+Parallel efficiency: 4.40%
+
+Correctness: PASS

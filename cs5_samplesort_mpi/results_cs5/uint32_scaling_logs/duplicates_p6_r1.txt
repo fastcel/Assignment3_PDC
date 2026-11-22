@@ -1,0 +1,35 @@
+===== NATIVE 32-BIT MPI SAMPLE SORT =====
+Distribution: duplicates
+Total integers: 100000000
+Processes: 6
+Oversampling: 4
+Element bytes: 4
+MPI payload datatype: MPI_UINT32_T
+Final counts: 16666666 16666667 16666667 16666666 16666667 16666667
+Max/mean imbalance: 1.000x
+Global fingerprint sum: 0x6a75535246682121
+Global fingerprint xor: 0x416186a18af7be83
+Local sorting: PASS
+Global ordering: PASS
+Elements preserved: PASS
+Fingerprint preservation: PASS
+Correctness: PASS
+
+===== PHASE TIMINGS =====
+Local sorting: 1.910921 s
+Sample selection: 0.039548 s
+Partition and counts: 0.000206 s
+Alltoallv redistribution: 0.092261 s
+Final sorting: 1.171955 s
+Total sorting time: 3.175397 s
+
+===== PER-RANK PHASE TIMINGS =====
+rank,local_sort_s,sampling_s,partition_s,alltoallv_s,final_sort_s,phase_window_s
+0,1.901455120,0.009519580,0.000205502,0.092248799,0.901670678,2.905099679
+1,1.871447559,0.039548280,0.000171734,0.083275980,0.892532806,2.886976359
+2,1.905517318,0.005472550,0.000197928,0.083261431,0.938793708,2.933242935
+3,1.905085970,0.005932110,0.000161239,0.082428725,0.902338633,2.895946677
+4,1.910920881,0.000070295,0.000183204,0.089791573,0.881062424,2.882028377
+5,1.901904387,0.009113616,0.000162753,0.092260942,1.171955149,3.175396847
+===== END PER-RANK PHASE TIMINGS =====
+

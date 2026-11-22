@@ -1,0 +1,14 @@
+===== FALSE SHARING EXPERIMENT =====
+Threads: 6
+Iterations per thread: 20000000
+
+Run 1 | Adjacent: 0.153213 s | Padded: 0.015058 s
+Run 2 | Adjacent: 0.146886 s | Padded: 0.018399 s
+Run 3 | Adjacent: 0.149187 s | Padded: 0.014653 s
+
+===== MEDIANS =====
+Adjacent counters: 0.149187 seconds
+Padded counters: 0.015058 seconds
+Adjacent/Padded ratio: 9.907x
+
+Correctness: PASS

@@ -1,0 +1,29 @@
+===== PAGERANK SCHEDULING =====
+Vertices: 100000
+Edges: 1260000
+Threads: 6
+Schedule: dynamic
+
+===== WORK DISTRIBUTION =====
+Thread 0: 297823 incoming edges
+Thread 1: 163738 incoming edges
+Thread 2: 163532 incoming edges
+Thread 3: 238666 incoming edges
+Thread 4: 142429 incoming edges
+Thread 5: 253812 incoming edges
+Total assigned edges: 1260000
+Max/min edge imbalance: 2.091x
+
+===== SOLVER RESULTS =====
+Serial pull iterations: 19
+OpenMP pull iterations: 19
+Serial pull time: 0.095175 seconds
+OpenMP pull time: 0.029577 seconds
+Speedup vs serial pull: 3.218x
+Final residual: 8.432804428427e-11
+Sum of ranks: 1.000000000000
+
+===== VERIFICATION =====
+Maximum rank difference: 0.000000000000e+00
+L1 vector difference: 0.000000000000e+00
+Correctness: PASS
