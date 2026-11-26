@@ -25,6 +25,9 @@ __pycache__/
 # Temporary files
 *.tmp
 
+# Windows download metadata
+*:Zone.Identifier
+
 # Generated compiled ELF executables
 /cs1_heat_mpi/boundary_demo
 /cs1_heat_mpi/mpi_1d_demo
